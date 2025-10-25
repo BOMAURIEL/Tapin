@@ -67,7 +67,6 @@ exports.registerVolunteer = async (req, res) => {
       },
       token
     });
-
   } catch (error) {
     console.error('Registration error:', error);
     
@@ -137,7 +136,6 @@ exports.registerOrganization = async (req, res) => {
       },
       token
     });
-
   } catch (error) {
     console.error('Registration error:', error);
     
@@ -209,7 +207,6 @@ exports.login = async (req, res) => {
       },
       token
     });
-
   } catch (error) {
     console.error('Login error:', error);
     res.status(500).json({
